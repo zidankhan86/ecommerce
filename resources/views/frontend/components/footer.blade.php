@@ -1,4 +1,3 @@
-
 <footer class="footer section text-center">
 	<div class="container">
 		<div class="row">
@@ -25,8 +24,10 @@
 						</a>
 					</li>
 				</ul>
-				
-				<p class="copyright-text"> {{env('app_name')}} © <script>document.write(new Date().getFullYear());</script>. All Rights Reserved</p>
+
+				<p class="copyright-text"> {{env('APP_NAME')}} © <script>
+						document.write(new Date().getFullYear());
+					</script>. All Rights Reserved</p>
 			</div>
 		</div>
 	</div>
